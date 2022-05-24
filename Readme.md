@@ -1,0 +1,1 @@
+Este projeto tem como base, a função de alocar metodos para automação de testes com robot framework, dessa forma facilitando os metodos a serem usados, sempre buscando em um único lugar métodos complexos que usamos poucas vezes.
