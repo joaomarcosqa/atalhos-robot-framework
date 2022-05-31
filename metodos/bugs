@@ -1,0 +1,27 @@
+#Modelos de como abrir um bug
+
+DADO esteja em minhas avaliações
+QUANDO descer a pagina
+E clicar em avaliar ou editar avaliação
+ENTÃO o botão de subir ao topo não irá aparecer nos modais
+
+CENÁRIO ATUAL:
+Ao clicar em avaliar ou editar avaliação o botão de subir ao topo continua visível na tela
+
+CENÁRIO IDEAL:
+Ao clicar em avaliar ou editar avaliação o botão de subir ao topo não ficara visível na tela
+
+Segue video como evidência:
+
+Ao colocar produtos no carrinho e seguir ao checkout caso eu clique em voltar ao carrinho o comportamento é meio aleatório, basicamente ele volta uma tela antes do carrinho, as vezes aleatoriamente, segue video simulando.
+Executando os testes deslogado isso não ocorre:
+Ao executar os testes deslogado a URL do checkout é a seguinte : https://now.westwing.com.br/checkout/index/
+Ao executar os testes logado a URL do checkout é a seguinte :
+https://now.westwing.com.br/checkout/multistep/#
+Cenario ideal:
+Ao clicar no botão Voltar, na tela checkout (https://now.westwing.com.br/checkout/multistep/), então o usuário deverá ser redirecionado para a tela do carrinho (https://now.westwing.com.br/cart/index/)
+Cenario atual:
+Ao clicar no botão Voltar, na tela checkout (https://now.westwing.com.br/checkout/multistep/), então o usuário é redirecionado para  telas “aleatórias “
+DADO que esteja no checkout
+QUANDO clicar no botão Voltar, na tela checkout
+ENTÃO o usuário deverá ser redirecionado para a tela do carrinho
