@@ -1,6 +1,6 @@
 *** Settings ***
 Documentation    Exemplo de uso da Library Faker
-Library          FakerLibrary
+Library         FakerLibrary    locale=pt_BR
 
 *** Test Cases ***
 Imprime exemplos de utilidades da library FakerLibrary
